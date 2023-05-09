@@ -40,19 +40,19 @@ export const Information = () => {
         <hr />
         <ul className="text-white font-serif flex flex-col gap-3 mt-2">
           <li className=" hover:text-gray-400 flex flex-row gap-1">
-            <BsFacebook />
+            <BsFacebook className="mt-0.5" />
             <a href="">Facebook</a>
           </li>
           <li className=" hover:text-gray-400 flex flex-row gap-1">
-            <BsInstagram />
+            <BsInstagram className="mt-0.5" />
             <a href="">Instagram</a>
           </li>
           <li className=" hover:text-gray-400 flex flex-row gap-1">
-            <BsFillEnvelopeFill />
+            <BsFillEnvelopeFill className="mt-0.5" />
             <a href="">Email</a>
           </li>
           <li className=" hover:text-gray-400 flex flex-row gap-1">
-            <BsWhatsapp />
+            <BsWhatsapp className="mt-0.5" />
             <a href="">WhatsApp</a>
           </li>
         </ul>
