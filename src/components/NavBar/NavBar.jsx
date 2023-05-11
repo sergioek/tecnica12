@@ -47,7 +47,7 @@ export default function NavBar() {
                       alt="Your Company"
                     />
                     <div className="flex flex-col mx-2">
-                      <h1 className="text-white text-lg font-pacifico">
+                      <h1 className="text-white text-lg font-sans font-semibold">
                         Escuela Técnica Nº12
                       </h1>
                       <span className="text-white text-xs font-josefin">
