@@ -2,6 +2,7 @@ import './App.css'
 import { Footer } from './components/Footer/Footer'
 import NavBar from './components/NavBar/NavBar'
 import { Home } from './components/Home/Home'
+import { Project } from './components/Project/Project'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
       <main>
         <Home/>
+        <Project/>
       </main>
        
       <Footer />

@@ -18,7 +18,7 @@ export const Watchword = () => {
             Aprender
           </h3>
           <div className="mt-4">
-            <p className="text-gray-600 text-sm leading-6 text-justify font-sans">
+            <p className="text-gray-600 text-md leading-6 text-justify font-sans">
               Implica la apropiación de un conjunto de conocimientos científicos
               de las ramas de las ciencias naturales, sociales y del área
               técnica, que permiten una formación integral y una cultura general
@@ -37,7 +37,7 @@ export const Watchword = () => {
             Trabajar
           </h3>
           <div className="mt-4">
-            <p className="text-gray-600 text-sm leading-6 text-justify font-sans">
+            <p className="text-gray-600 text-md leading-6 text-justify font-sans">
               En el transcurso de la formación técnica específica del nivel
               secundario los alumnos se apropian de un conjunto de competencias
               que les permiten el manejo de máquinas y herramientas para
@@ -56,7 +56,7 @@ export const Watchword = () => {
             Servir
           </h3>
           <div className="mt-4">
-            <p className="text-gray-600 text-sm leading-6 text-justify font-sans">
+            <p className="text-gray-600 text-md leading-6 text-justify font-sans">
               Los conocimientos técnicos y científicos aquiridos deben ser
               puestos al servicio de la sociedad, promoviendo la conciencia
               ecológica y la búsqueda del bien común. Por ello, nuestra
