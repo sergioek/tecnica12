@@ -1,0 +1,31 @@
+import React from 'react'
+import Team from './Team';
+
+export const Authorities = () => {
+  return (
+    <div>
+      <div>
+        <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
+          Autoridades y equipo docente
+        </h2>
+        <p className="mt-1 text-lg leading-8 text-gray-600">
+          La gran familia integra esta institución.
+        </p>
+      </div>
+
+      <div className='my-12'>
+        <p className="text-gray-600 text-md leading-6 text-justify font-sans">
+          La Escuela Técnica Nº12 cuenta con un plantel docente y no docente de
+          excelentísima calidad, con alta preparación pedagógica y un gran
+          sentido de pertenencia y arraigo con los objetivos institucionales.
+          Nos centramos en brindar educación técnica de calidad sin descuidar
+          los aspectos relacionados con el buen trato y la humanidad hacia los
+          alumnos y padres que conforman la comunidad educativa de nuestra
+          querida institución.
+              </p>
+              
+        <Team/>
+      </div>
+    </div>
+  );
+}

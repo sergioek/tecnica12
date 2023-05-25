@@ -19,7 +19,7 @@ export const Information = () => {
             <a href="">Institucional</a>
           </li>
           <li className=" hover:text-gray-400">
-            <a href="">Proyecto educativo</a>
+            <a href="">Oferta educativa</a>
           </li>
           <li className=" hover:text-gray-400">
             <a href="">Noticias</a>
