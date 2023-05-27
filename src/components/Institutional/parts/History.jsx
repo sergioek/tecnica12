@@ -3,7 +3,7 @@ import React from 'react'
 export const History = () => {
   return (
     <div>
-      <div>
+      <div className="border-b border-gray-200">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Nuestra historia
         </h2>
@@ -34,7 +34,7 @@ export const History = () => {
           productivo construcciones edilicias y durante su trayectoria escolar
           incorporan conocimientos y capacidades necesarias para abrirse paso
           frente a las oportunidades laborales propias de su área de
-          competencia. Actualmente cuenta con 273 alumnos que asisten en doble
+          competencia. Actualmente cuenta con 322 alumnos que asisten en doble
           turno, recibiendo la formación integral para ser personas de bien, re
           significando el valor del trabajo y constituyéndose en el granito de
           arena que brinde su aporte a la industrialización de nuestra provincia

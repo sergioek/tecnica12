@@ -4,7 +4,7 @@ import Team from './Team';
 export const Authorities = () => {
   return (
     <div>
-      <div>
+      <div className="border-b border-gray-200">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Autoridades y equipo docente
         </h2>
@@ -13,7 +13,7 @@ export const Authorities = () => {
         </p>
       </div>
 
-      <div className='my-12'>
+      <div className="my-12">
         <p className="text-gray-600 text-md leading-6 text-justify font-sans">
           La Escuela Técnica Nº12 cuenta con un plantel docente y no docente de
           excelentísima calidad, con alta preparación pedagógica y un gran
@@ -22,9 +22,9 @@ export const Authorities = () => {
           los aspectos relacionados con el buen trato y la humanidad hacia los
           alumnos y padres que conforman la comunidad educativa de nuestra
           querida institución.
-              </p>
-              
-        <Team/>
+        </p>
+
+        <Team />
       </div>
     </div>
   );

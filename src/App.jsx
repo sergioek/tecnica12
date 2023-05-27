@@ -2,26 +2,26 @@ import './App.css'
 import { Footer } from './components/Footer/Footer'
 import NavBar from './components/NavBar/NavBar'
 import { Home } from './components/Home/Home'
-import { Project } from './components/Project/Project'
+import { Institutional } from './components/Institutional/Institutional'
+import { Offer } from './components/Offer/Offer'
+import { BrowserRouter,Routes,Route,Navigate} from 'react-router-dom'
 
 function App() {
 
-
   return (
-    <div className="App">
-     
-      <NavBar/>
-      
-
+    <BrowserRouter>
+      <NavBar />
       <main>
-        <Home/>
-        <Project/>
+        <Routes>
+          <Route path="*" element={<Navigate to={"/"} />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/institucional" element={<Institutional />} />
+          <Route path="/oferta" element={<Offer/>} />
+        </Routes>
       </main>
-       
       <Footer />
-      
-    </div>
-  )
+    </BrowserRouter>
+  );
 }
 
 export default App
