@@ -75,7 +75,7 @@ export const MMO = () => {
         </div>
               
         <div className='my-20 grid justify-items-center'>
-          <img src="/src/assets/img/offer/proyecto.jpg" alt="proyecto" className='w-5/6'/>
+          <img src="/img/offer/proyecto.jpg" alt="proyecto" className='w-5/6'/>
         </div>
       </div>
     </div>

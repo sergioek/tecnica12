@@ -1,8 +1,8 @@
 import React from 'react'
 const images = [
-  { alt: "image1", url: "/src/assets/img/ifraestructure/image1.jpg" },
-  { alt: "image2", url: "/src/assets/img/ifraestructure/image2.jpg" },
-    { alt: "image3", url: "/src/assets/img/ifraestructure/image3.jpg" },
+  { alt: "image1", url: "/img/ifraestructure/image1.jpg" },
+  { alt: "image2", url: "/img/ifraestructure/image2.jpg" },
+    { alt: "image3", url: "/img/ifraestructure/image3.jpg" },
   
 ];
 export const Galery = () => {

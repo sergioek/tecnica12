@@ -5,24 +5,24 @@ export const SimpleSlider = () => {
 
     const slides = [
       {
-        url: "/src/assets/img/slider/portada1.jpg",
+        url: "/img/slider/portada1.jpg",
       },
       {
-        url: "/src/assets/img/slider/portada2.jpg",
+        url: "/img/slider/portada2.jpg",
       },
       {
-        url: "/src/assets/img/slider/portada3.jpg",
-      },
-
-      {
-        url: "/src/assets/img/slider/portada4.jpg",
-      },
-      {
-        url: "/src/assets/img/slider/portada5.jpg",
+        url: "/img/slider/portada3.jpg",
       },
 
       {
-        url: "/src/assets/img/slider/portada6.jpg",
+        url: "/img/slider/portada4.jpg",
+      },
+      {
+        url: "/img/slider/portada5.jpg",
+      },
+
+      {
+        url: "/img/slider/portada6.jpg",
       },
     ];
 

@@ -28,7 +28,7 @@ export const Infrastructure = () => {
 
       <div className="grid grid-cols-1 justify-items-center my-6">
         <video width="60%" height="600px" controls>
-          <source src="/src/assets/video/video.mp4" type="video/mp4" />
+          <source src="/video/video.mp4" type="video/mp4" />
         </video>
       </div>
     </div>

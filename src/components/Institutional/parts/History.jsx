@@ -14,7 +14,7 @@ export const History = () => {
 
       <div className="my-12 flex flex-col-reverse gap-12 items-center lg:flex-row-reverse">
         <img
-          src="/src/assets/img/others/imagen1.jpg"
+          src="/img/others/imagen1.jpg"
           alt="imagen-tecnica12"
           className="rounded-full  border-8 border-gray-800"
         />

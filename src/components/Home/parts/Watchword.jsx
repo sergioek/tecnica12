@@ -25,7 +25,7 @@ export const Watchword = () => {
               para desenvolverse en una sociedad democrática.
             </p>
             <img
-              src="/src/assets/img/watchword/aprender.jpg"
+              src="/img/watchword/aprender.jpg"
               alt=""
               className="mt-4 rounded-lg"
             />
@@ -44,7 +44,7 @@ export const Watchword = () => {
               desarrollar actividades prácticas propias de su campo de acción.
             </p>
             <img
-              src="/src/assets/img/watchword/trabajar.jpg"
+              src="/img/watchword/trabajar.jpg"
               alt=""
               className="mt-4 rounded-lg"
             />
@@ -65,7 +65,7 @@ export const Watchword = () => {
               efectiva.
             </p>
             <img
-              src="/src/assets/img/watchword/servir2.jpg"
+              src="/img/watchword/servir2.jpg"
               alt=""
               className="mt-4 rounded-lg h-full"
             />
