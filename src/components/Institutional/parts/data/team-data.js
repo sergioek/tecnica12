@@ -10,7 +10,7 @@ export const people = [
     name: "Lic. Patricia del Valle Leyría",
     role: "Asesora Pedagógica",
     imageUrl:
-      "https://scontent.fcor10-3.fna.fbcdn.net/v/t39.30808-6/347094926_819374929593349_3231996570491332117_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFfC3VdXbIrGFBbYH77qek59jAOxsTEFwb2MA7GxMQXBpZkbZBp21WlMPDLk3oPoIgpi_RdlEfmJkUs-mU2rwQ-&_nc_ohc=PhrUJxO2OMwAX8PqAPc&_nc_ht=scontent.fcor10-3.fna&oh=00_AfCOrMHVySr548sMI47CHoWPKIB8Pb2VqHCqtcv-A3tdGA&oe=64737013",
+      "https://scontent.fcor2-2.fna.fbcdn.net/v/t39.30808-6/347094926_819374929593349_3231996570491332117_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFfC3VdXbIrGFBbYH77qek59jAOxsTEFwb2MA7GxMQXBpZkbZBp21WlMPDLk3oPoIgpi_RdlEfmJkUs-mU2rwQ-&_nc_ohc=_WYinHEMMs0AX98VtPc&_nc_ht=scontent.fcor2-2.fna&oh=00_AfAO40TvwlPFtJx4-tLgbUtsPOyjGxuNlVxcsHMVxYJ4Fg&oe=64795ED3",
   },
 
   {
@@ -72,6 +72,5 @@ export const people = [
     role: "Catedrática",
     imageUrl:
       "https://scontent.fcor10-3.fna.fbcdn.net/v/t39.30808-1/335434633_972527630576551_3329173601899421589_n.jpg?stp=dst-jpg_s200x200&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGs6a_Aj2nT7YHbJP9s-z7lu7FOmI06CyG7sU6YjToLIV2eDvt4fTW0aeiZJc7OIx4zreu2397Dsg6WVv6GYyAW&_nc_ohc=wFx2Cdjjr2gAX-jeUjL&_nc_ht=scontent.fcor10-3.fna&oh=00_AfCo2cttc3t1C2mayjGmP8kLvBSjxpSeT0uE1rFHuHJ3ig&oe=6472C8E8",
-    },
-  
+  },
 ];
