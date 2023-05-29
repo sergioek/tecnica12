@@ -45,7 +45,7 @@ export default function NavBar() {
                     />
                     <img
                       className="hidden h-14 w-auto lg:block"
-                      src="./src/assets/img/logo.PNG"
+                      src={logo}
                       alt="Your Company"
                     />
                     <div className="flex flex-col mx-2">
