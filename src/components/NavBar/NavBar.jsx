@@ -39,7 +39,7 @@ export default function NavBar() {
                   <div className="flex flex-shrink-0 flex-row items-center">
                     <img
                       className="block h-14 w-auto lg:hidden"
-                      src="/src/assets/img/logo.PNG"
+                      src="/img/logo.PNG"
                       alt="Your Company"
                     />
                     <img
