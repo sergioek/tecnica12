@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
-import { logo } from "./../../assets/img/logo.PNG";
+//import { logo } from "./../../assets/img/logo.PNG";
 
 const navigation = [
   { name: "Inicio", href: "/", current: false },
@@ -40,12 +40,12 @@ export default function NavBar() {
                   <div className="flex flex-shrink-0 flex-row items-center">
                     <img
                       className="block h-14 w-auto lg:hidden"
-                      src={logo}
+                      src="../../assets/img/logo.PNG"
                       alt="Your Company"
                     />
                     <img
                       className="hidden h-14 w-auto lg:block"
-                      src={logo}
+                      src="../../assets/img/logo.PNG"
                       alt="Your Company"
                     />
                     <div className="flex flex-col mx-2">
