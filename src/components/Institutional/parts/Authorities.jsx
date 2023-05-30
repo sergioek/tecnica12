@@ -4,7 +4,7 @@ import Team from './Team';
 export const Authorities = () => {
   return (
     <div>
-      <div className="border-b border-gray-200">
+      <div className="border-b border-gray-300">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Autoridades y equipo docente
         </h2>
@@ -23,6 +23,10 @@ export const Authorities = () => {
           alumnos y padres que conforman la comunidad educativa de nuestra
           querida institución.
         </p>
+        
+        <div className='flex justify-center my-8'>
+          <img src="/img/others/organigrama.PNG" className='w-3/5 h-auto' alt="organigrama" />
+        </div>
 
         <Team />
       </div>
