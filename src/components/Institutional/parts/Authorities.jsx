@@ -25,7 +25,7 @@ export const Authorities = () => {
         </p>
         
         <div className='flex justify-center my-8'>
-          <img src="/img/others/organigrama.PNG" className='w-3/5 h-auto' alt="organigrama" />
+          <img src="/img/others/organigrama.PNG" className='w-11/12 h-auto' alt="organigrama" />
         </div>
 
         <Team />

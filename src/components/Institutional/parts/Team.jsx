@@ -23,7 +23,7 @@ export default function Team() {
                 <img
                   className="h-16 w-16 rounded-full"
                   src={person.imageUrl.length>0 ? person.imageUrl : '/img/user.png' }
-                  alt={person.name}
+                  alt=""
                 />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">

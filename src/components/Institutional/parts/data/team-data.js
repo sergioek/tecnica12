@@ -10,7 +10,7 @@ export const people = [
     name: "Lic. Patricia del Valle Leyría",
     role: "Asesora Pedagógica",
     imageUrl:
-      "https://scontent.fcor2-2.fna.fbcdn.net/v/t39.30808-6/347094926_819374929593349_3231996570491332117_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFfC3VdXbIrGFBbYH77qek59jAOxsTEFwb2MA7GxMQXBpZkbZBp21WlMPDLk3oPoIgpi_RdlEfmJkUs-mU2rwQ-&_nc_ohc=_WYinHEMMs0AX98VtPc&_nc_ht=scontent.fcor2-2.fna&oh=00_AfAO40TvwlPFtJx4-tLgbUtsPOyjGxuNlVxcsHMVxYJ4Fg&oe=64795ED3",
+      "",
   },
 
   {
