@@ -39,7 +39,7 @@ export default function NavBar() {
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 flex-row items-center">
                     <img
-                      className="block h-14 w-auto lg:hidden"
+                      className="block h-14 w-auto lg:hidden pl-6"
                       src="/img/logo.PNG"
                       alt="Your Company"
                     />
@@ -67,7 +67,7 @@ export default function NavBar() {
                             isPending
                               ? ""
                               : isActive
-                              ? "border-b-2 border-red-500  text-white"
+                              ? "hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-medium font-serif border-b-2 border-red-500  text-white"
                               : "text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-medium font-serif"
                           }
                         >
