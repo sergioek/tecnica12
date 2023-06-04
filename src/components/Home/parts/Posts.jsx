@@ -58,7 +58,7 @@ export default function Posts() {
   return (
     <div className="bg-white py-2 sm:py-2">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-300">
           <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
             Noticias
           </h2>

@@ -3,7 +3,7 @@ import React from 'react'
 export const Location = () => {
   return (
     <div>
-      <div className="border-b border-gray-200">
+      <div className="border-b border-gray-300">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Ubicación geográfica
         </h2>

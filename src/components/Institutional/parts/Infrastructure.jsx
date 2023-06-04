@@ -4,7 +4,7 @@ import { Galery } from './Galery';
 export const Infrastructure = () => {
   return (
     <div>
-      <div className="border-b border-gray-200">
+      <div className="border-b border-gray-300">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Infraestructura
         </h2>
@@ -26,8 +26,9 @@ export const Infrastructure = () => {
 
       <Galery />
 
+
       <div className="grid grid-cols-1 justify-items-center my-6">
-        <video width="60%" height="600px" controls>
+        <video className='w-5/6 h-auto' controls>
           <source src="/video/video.mp4" type="video/mp4" />
         </video>
       </div>
