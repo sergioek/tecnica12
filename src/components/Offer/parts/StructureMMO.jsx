@@ -1,4 +1,5 @@
 import React from "react";
+import InfromationCBT from "./InformationCBT";
 
 export const StructureMMO = () => {
   return (
@@ -29,24 +30,9 @@ Ciclo mencionado. Las Instituciones organizarán acciones pedagógicas para vinc
 durante el 3er año, los saberes y capacidades adquiridas por los estudiantes a lo largo de 
 su trayectoria con las especialidades del Ciclo Superior Técnico que conforman la oferta 
 educativa de cada escuela.
- El taller es una modalidad de organización didáctica en donde se requiere de la 
-participación activa de los estudiantes en torno a un proyecto concreto de trabajo que 
-implica la contextualización en la realidad, la puesta en juego de conocimientos y procesos 
-de pensamiento, y la interacción entre pares y con el docente, lo que favorece el 
-establecimiento de acuerdos, el respeto por normas de convivencia, y el esfuerzo 
-colectivo para el logro de un objetivo común. Integra los saberes de los distintos campos 
-de formación, la práctica con los aportes teóricos, en tanto supone, la problematización 
-de la acción desde marcos conceptuales explícitos. Durante el mismo, se plantea la 
-necesidad de intercambiar información, experiencias, conocimientos para el logro de un 
-producto determinado. Incluye la vivencia, el análisis, la reflexión y la conceptualización 
-desde los aportes de diferentes campos del conocimiento, permitiendo generar y 
-concretar experiencias de integración entre diferentes módulos o al interior de cada uno 
-de ellos, a fin de posibilitar en los futuros profesionales niveles complejos de comprensión 
-del mundo del trabajo, la práctica profesional y la continuidad de estudios superiores.
-
         </p>
       </div>
-
+    <InfromationCBT/>
     </div>
   );
 };

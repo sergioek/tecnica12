@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { BsFileEarmarkPdf } from "react-icons/bs";
+import estructura from "/files/ESTRUCTURA-CURRICULAR-MMO.pdf";
 export const MMO = () => {
   return (
     <div>
@@ -73,10 +74,18 @@ export const MMO = () => {
             calidad, productividad y costos.
           </p>
         </div>
-              
-        <div className='my-20 grid justify-items-center'>
-          <img src="/img/offer/proyecto.jpg" alt="proyecto" className='w-5/6'/>
+
+        <div className="grid justify-items-center">
+          <img src="/img/offer/proyecto.jpg" alt="proyecto" className="w-5/6" />
         </div>
+      </div>
+      <div className="mb-24 mt-2 flex justify-center lg:mt-0 lg:justify-start">
+        <a href={estructura} target="_blank" rel="noopener noreferrer">
+          <button className="bg-purple-600 text-slate-100 h-10 px-4 rounded-md shadow-lg shadow-slate-600 flex justify-center items-center transform transition duration-1000 hover:border-purple-600 hover:border-2 hover:bg-slate-100 hover:text-purple-600">
+            <BsFileEarmarkPdf className="mx-2" />
+            Estructura Curricular
+          </button>
+        </a>
       </div>
     </div>
   );

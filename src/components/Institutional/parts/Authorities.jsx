@@ -12,7 +12,6 @@ export const Authorities = () => {
           La gran familia integra esta institución.
         </p>
       </div>
-
       <div className="my-12">
         <p className="text-gray-600 text-md leading-6 text-justify font-sans">
           La Escuela Técnica Nº12 cuenta con un plantel docente y no docente de
@@ -23,11 +22,9 @@ export const Authorities = () => {
           alumnos y padres que conforman la comunidad educativa de nuestra
           querida institución.
         </p>
-        
         <div className='flex justify-center my-8'>
-          <img src="/img/others/organigrama.PNG" className='w-11/12 h-auto' alt="organigrama" />
+          <img src="/img/others/Organigrama.png" className='w-11/12 h-auto' alt="organigrama" />
         </div>
-
         <Team />
       </div>
     </div>

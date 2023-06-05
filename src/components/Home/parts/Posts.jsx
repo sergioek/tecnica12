@@ -58,7 +58,7 @@ export default function Posts() {
   return (
     <div className="bg-white py-2 sm:py-2">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-300">
+        <div className="border-b border-gray-300 mx-auto max-w-2xl lg:mx-0 ">
           <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
             Noticias
           </h2>
@@ -66,7 +66,7 @@ export default function Posts() {
             Las últimas noticias acerca de nuestra institución.
           </p>
         </div>
-        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-4 sm:pt-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  pt-10 sm:mt-4 sm:pt-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
             <article
               key={post.id}
