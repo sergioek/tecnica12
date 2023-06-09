@@ -5,6 +5,8 @@ import {
   BsInstagram,
   BsFillEnvelopeFill,
 } from "react-icons/bs";
+import { Link } from 'react-router-dom';
+
 export const Information = () => {
   return (
     <div className="bg-blue-800 mx-4 grid sm:grid-cols-1 sm:justify-items-start md:grid-cols-3 md:gap-2 md:justify-items-center mb-8">
@@ -13,19 +15,17 @@ export const Information = () => {
         <hr />
         <ul className="text-white font-serif">
           <li className=" hover:text-gray-400">
-            <a href="">Inicio</a>
+            <Link to="/inicio">Inicio</Link>
           </li>
           <li className=" hover:text-gray-400">
-            <a href="">Institucional</a>
+            <Link to="/institucional">Institucional</Link>
           </li>
           <li className=" hover:text-gray-400">
-            <a href="">Oferta educativa</a>
+            <Link to="/oferta">Oferta educativa</Link>
           </li>
+
           <li className=" hover:text-gray-400">
-            <a href="">Noticias</a>
-          </li>
-          <li className=" hover:text-gray-400">
-            <a href="">Formulario</a>
+            <a href="">Formularios</a>
           </li>
           <li className=" hover:text-gray-400">
             <a href="">Contacto</a>

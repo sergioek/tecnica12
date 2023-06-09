@@ -8,7 +8,7 @@ const navigation = [
   { name: "Inicio", href: "/", current: false },
   { name: "Institucional", href: "/institucional", current: false },
   { name: "Oferta educativa", href: "/oferta", current: false },
-  { name: "Noticias", href: "/noticias", current: false },
+  { name: "FAQ", href: "/faq", current: false },
   { name: "Formularios", href: "/formularios", current: false },
   { name: "Contacto", href: "/contacto", current: false },
 ];

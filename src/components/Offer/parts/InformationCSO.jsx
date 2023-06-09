@@ -1,19 +1,20 @@
 const links = [
-  { name: "Formación General", href: "#" },
-  { name: "Formación Científico Tecnológica", href: "#" },
-  { name: "Formación Técnico Específica (Talleres)", href: "#" }
+  { name: "Diseñar procesos constructivos", href: "#" },
+  { name: "Organizar y dirigir procesos constructivos", href: "#" },
+  { name: "Ejecutar procesos constructivos", href: "#" },
 ];
 const stats = [
-  { name: "Horas Cátedras", value: "96" },
-  { name: "Espacios curriculares", value: "25" },
-  { name: "Talleres", value: "5" },
+  { name: "Horas Cátedras", value: "201" },
+  { name: "Espacios curriculares", value: "49" },
+  { name: "Talleres", value: "3" },
+  { name: "Prácticas Profesionalizantes", value: "1 AÑO" },
 ];
 
-export default function InfromationCBT() {
+export default function InfromationCSO() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 my-12">
       <img
-        src="/img/others/ciclo_basico.jpg"
+        src="/img/others/CSO.jpg"
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
@@ -43,11 +44,11 @@ export default function InfromationCBT() {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-purple-300 sm:text-6xl">
-            Sobre el Ciclo Básico
+          <h2 className="text-3xl font-bold tracking-tight text-green-300 sm:text-6xl">
+            Ciclo Superior Orientado (M.M.O)
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
-            Algunos datos sobre el Ciclo Básico Técnico, referente a la
+          <p className="mt-6 text-lg leading-8 text-gray-200">
+            Algunos datos sobre la carrera Maestro Mayor de Obras, referente a la
             estructura curricular.
           </p>
         </div>
