@@ -48,8 +48,7 @@ export default function InfromationCSO() {
             Ciclo Superior Orientado (M.M.O)
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-200">
-            Algunos datos sobre la carrera Maestro Mayor de Obras, referente a la
-            estructura curricular.
+            Algunos datos sobre la carrera Maestro Mayor de Obras.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
