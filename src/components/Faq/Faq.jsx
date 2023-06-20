@@ -108,7 +108,7 @@ export const Faq = () => {
 
       <div className="my-12">
         {faqs.map((faq) => (
-          <div className="my-4 p-3 bg-slate-100 rounded-md" key={faq.id}>
+          <div className="my-4 p-3 bg-slate-300 rounded-md" key={faq.id}>
             <div className="flex flex-row items-center justify-between">
               <div>
                 <strong onClick={() =>collapse(faq.id)} className="cursor-pointer">{faq.ask}</strong>

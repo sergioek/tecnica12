@@ -1,11 +1,13 @@
-import './App.css'
-import { Footer } from './components/Footer/Footer'
-import NavBar from './components/NavBar/NavBar'
-import { Home } from './components/Home/Home'
-import { Institutional } from './components/Institutional/Institutional'
-import { Offer } from './components/Offer/Offer'
+import './App.css';
+import { Footer } from './components/Footer/Footer';
+import NavBar from './components/NavBar/NavBar';
+import { Home } from './components/Home/Home';
+import { Institutional } from './components/Institutional/Institutional';
+import { Offer } from './components/Offer/Offer';
 import { Faq } from './components/Faq/Faq';
-import { BrowserRouter,Routes,Route,Navigate} from 'react-router-dom'
+import { Contact } from "./components/Contact/Contact";
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+
 
 function App() {
 
@@ -18,7 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/institucional" element={<Institutional />} />
           <Route path="/oferta" element={<Offer />} />
-          <Route path="/faq" element={<Faq/>}/>
+          <Route path="/faq" element={<Faq />} />
+          <Route path="contacto" element={<Contact/>}/>
         </Routes>
       </main>
       <Footer />
