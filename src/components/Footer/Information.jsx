@@ -25,11 +25,10 @@ export const Information = () => {
           </li>
 
           <li className=" hover:text-gray-400">
-            <Link to="/faq">FAQ</Link>
+            <Link to="/noticias">Noticias</Link>
           </li>
-
           <li className=" hover:text-gray-400">
-            <Link to="/calendario">Calendario</Link>
+            <Link to="/faq">FAQ</Link>
           </li>
 
           <li className=" hover:text-gray-400">

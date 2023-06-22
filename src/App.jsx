@@ -8,7 +8,8 @@ import { Faq } from './components/Faq/Faq';
 import { Contact } from "./components/Contact/Contact";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Forms } from './components/Forms/Forms';
-import { Calendar } from './components/Calendar/Calendar';
+import { News } from './components/News/News';
+
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           <Route path="/institucional" element={<Institutional />} />
           <Route path="/oferta" element={<Offer />} />
           <Route path="/faq" element={<Faq />} />
-          <Route path="/calendario" element={<Calendar/>} />
+          <Route path="/noticias" element={<News/>} />
           <Route path="/formularios" element={<Forms/>} />
           <Route path="contacto" element={<Contact />} />
         </Routes>

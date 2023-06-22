@@ -8,8 +8,8 @@ const navigation = [
   { name: "Inicio", href: "/", current: false },
   { name: "Institucional", href: "/institucional", current: false },
   { name: "Oferta educativa", href: "/oferta", current: false },
+  { name: "Noticias", href: "/noticias", current: false },
   { name: "FAQ", href: "/faq", current: false },
-  { name: "Calendario", href: "/calendario", current: false },
   { name: "Formularios", href: "/formularios", current: false },
   { name: "Contacto", href: "/contacto", current: false },
 ];
@@ -26,7 +26,7 @@ export default function NavBar() {
           <>
             <div className="mx-auto max-w-7xl px-2 py-2 sm:px-6 lg:px-8">
               <div className="relative flex h-18 items-center justify-between">
-                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                   {/* Mobile menu button*/}
                   <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
@@ -37,7 +37,7 @@ export default function NavBar() {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div className="flex flex-1 items-center justify-center sm:items-stretch lg:justify-start">
                   <div className="flex flex-shrink-0 flex-row items-center">
                     <img
                       className="block h-14 w-auto lg:hidden pl-6"
@@ -58,7 +58,8 @@ export default function NavBar() {
                       </span>
                     </div>
                   </div>
-                  <div className="hidden sm:ml-6 sm:block">
+                  {/*Era sm:block*/}
+                  <div className="hidden sm:ml-6 lg:block">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
                         <NavLink
@@ -81,7 +82,7 @@ export default function NavBar() {
               </div>
             </div>
 
-            <Disclosure.Panel className="sm:hidden">
+            <Disclosure.Panel className="lg:hidden">
               <div className="space-y-1 px-2 pt-2 pb-3">
                 {navigation.map((item) => (
                   <Disclosure.Button
@@ -92,7 +93,9 @@ export default function NavBar() {
                       "block rounded-md px-3 py-2 text-base font-medium"
                     )}
                   >
-                    <Link to={item.href} key={item.name}>{item.name}</Link>
+                    <Link to={item.href} key={item.name}>
+                      {item.name}
+                    </Link>
                   </Disclosure.Button>
                 ))}
               </div>
