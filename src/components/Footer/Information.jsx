@@ -25,35 +25,49 @@ export const Information = () => {
           </li>
 
           <li className=" hover:text-gray-400">
-            <a href="">Formularios</a>
+            <Link to="/faq">FAQ</Link>
+          </li>
+
+          <li className=" hover:text-gray-400">
+            <Link to="/calendario">Calendario</Link>
+          </li>
+
+          <li className=" hover:text-gray-400">
+            <Link to="/formularios">Formularios</Link>
           </li>
           <li className=" hover:text-gray-400">
-            <a href="">Contacto</a>
+            <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
       </div>
 
       <div className="mt-4">
         <h2 className="text-red-500 text-3xl font-josefin font-bold">
-          Redes sociales
+          Seguinos en
         </h2>
         <hr />
         <ul className="text-white font-serif flex flex-col gap-3 mt-2">
           <li className=" hover:text-gray-400 flex flex-row gap-1">
             <BsFacebook className="mt-0.5" />
-            <a href="">Facebook</a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100057504157788&mibextid=ZbWKwL"
+              target="blank"
+            >
+              Facebook
+            </a>
           </li>
-          <li className=" hover:text-gray-400 flex flex-row gap-1">
-            <BsInstagram className="mt-0.5" />
-            <a href="">Instagram</a>
-          </li>
+
           <li className=" hover:text-gray-400 flex flex-row gap-1">
             <BsFillEnvelopeFill className="mt-0.5" />
-            <a href="">Email</a>
+            <a href="mailto:esctecnica12@gmail.com" target="blank">
+              Email
+            </a>
           </li>
           <li className=" hover:text-gray-400 flex flex-row gap-1">
             <BsWhatsapp className="mt-0.5" />
-            <a href="">WhatsApp</a>
+            <a href="https://wa.me/543855881707" target="blank">
+              WhatsApp
+            </a>
           </li>
         </ul>
       </div>

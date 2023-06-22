@@ -7,6 +7,8 @@ import { Offer } from './components/Offer/Offer';
 import { Faq } from './components/Faq/Faq';
 import { Contact } from "./components/Contact/Contact";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Forms } from './components/Forms/Forms';
+import { Calendar } from './components/Calendar/Calendar';
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
           <Route path="/institucional" element={<Institutional />} />
           <Route path="/oferta" element={<Offer />} />
           <Route path="/faq" element={<Faq />} />
-          <Route path="contacto" element={<Contact/>}/>
+          <Route path="/calendario" element={<Calendar/>} />
+          <Route path="/formularios" element={<Forms/>} />
+          <Route path="contacto" element={<Contact />} />
         </Routes>
       </main>
       <Footer />
