@@ -23,7 +23,7 @@ export const Authorities = () => {
           querida institución.
         </p>
         <div className='flex justify-center my-8'>
-          <img src="/img/others/Organigrama.png" className='w-11/12 h-auto' alt="organigrama" />
+          <img src="/img/others/organigramaA4.png" className='w-11/12 h-auto' alt="organigrama" />
         </div>
         <Team />
       </div>

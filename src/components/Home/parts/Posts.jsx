@@ -1,24 +1,45 @@
 const posts = [
   {
     id: 1,
-    title: "La Escuela Técnica se prepara el acto Central del 9 de Julio",
-    href: "",
+    title: "Cronograma de exámenes previos y finalización de carrera",
+    href: "https://drive.google.com/file/d/1LXgWAFdoVKMEU6fvwkudErPhYxhnLY3w/view?usp=sharing",
     description:
-      "En el marco de los festejos por el 9 de Julio, dia de la Independencia Argentina, la Escuela Técnica trabaja arduamente en conjunto con la Municipalidad de Fernández para llevar a cabo el acto central a celebrarse el domingo 9 de Julio a las 9:00hs.",
-    date: "22 de Junio, 2023",
-    datetime: "2023-06-22",
+      "El cronograma esta disponible en formato PDF. Se recuerda a los alumnos concurrir con DNI. En el caso de requerir el programa para rendir, solicitarlo de manera presencial en la institución. Si se encuentra enfermo, avisar en preceptoría o mediante algún medio habilitado.",
+    date: "13 de Julio, 2023",
+    datetime: "2023-07-13",
     category: { title: "Noticias", href: "#" },
     author: {
       name: "Escuela Técnica Nº12",
       role: "Admin",
       href: "#",
-      imageUrl:
-        "https://www.nea.edu.ar/wp-content/uploads/2020/07/9dejulio.png",
+      imageUrl: "/img/others/examenes2.jpg",
     },
   },
 
   {
     id: 2,
+    title:
+      "Fernández se vistió de celeste y blanco para conmemorar el Día de la Independencia",
+    href: "",
+    description:
+      "Organizado por la Comunidad educativa de la Escuela Técnica Nº 12 y la Secretaría de Cultura y Educación de la Municipalidad, esta mañana se realizó el acto oficial por el Día de la Independencia en la ciudad de Fernández.",
+    date: "09 de Julio, 2023",
+    datetime: "2023-07-09",
+    category: {
+      title: "Noticias",
+      href: "https://www.elprogresoweb.com.ar/noticia.php?noticia=19697",
+    },
+    author: {
+      name: "Escuela Técnica Nº12",
+      role: "Admin",
+      href: "#",
+      imageUrl:
+        "https://www.elprogresoweb.com.ar/graficos/acto-independencia-2023-1.JPG",
+    },
+  },
+
+  {
+    id: 3,
     title:
       "El municipio de Fernández hizo entrega de ejemplares de la Constitución Nacional",
     href: "https://www.elprogresoweb.com.ar/noticia.php?noticia=19280",
@@ -36,7 +57,7 @@ const posts = [
   },
 
   {
-    id: 3,
+    id: 4,
     title:
       "La Escuela Técnica Nº 12 inició el ciclo lectivo con un crecimiento en su matricula",
     href: "https://www.elprogresoweb.com.ar/noticia.php?noticia=18903",
@@ -54,7 +75,7 @@ const posts = [
   },
 
   {
-    id: 4,
+    id: 5,
     title:
       "La Escuela Ténica Nº 12 realizó el acto de colación de los egresados 2022",
     href: "https://www.elprogresoweb.com.ar/noticia.php?noticia=18496",

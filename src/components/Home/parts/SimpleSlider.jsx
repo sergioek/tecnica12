@@ -8,6 +8,9 @@ export const SimpleSlider = () => {
         url: "/img/slider/portada1.jpg",
       },
       {
+        url: "/img/slider/acto-independencia-2023.jfif",
+      },
+      {
         url: "/img/slider/portada2.jpg",
       },
       {

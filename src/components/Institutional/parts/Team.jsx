@@ -1,6 +1,7 @@
 import { people } from "./data/team-data.js";
-
+import { useState } from "react";
 export default function Team() {
+  const [limit, setLimit] = useState(12)
   return (
     <div className="bg-white py-16 sm:py-16">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
@@ -17,26 +18,50 @@ export default function Team() {
           role="list"
           className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-3"
         >
-          {people.map((person) => (
-            <li key={person.name}>
-              <div className="flex items-center gap-x-6">
-                <img
-                  className="h-16 w-16 rounded-full"
-                  src={person.imageUrl.length>0 ? person.imageUrl : '/img/user.png' }
-                  alt=""
-                />
-                <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
-                    {person.name}
-                  </h3>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">
-                    {person.role}
-                  </p>
-                </div>
-              </div>
-            </li>
-          ))}
+          {people.map(
+            (person) =>
+              person.id <= limit && (
+                <li key={person.name}>
+                  <div className="flex items-center gap-x-6">
+                    <img
+                      className="h-16 w-16 rounded-full"
+                      src={
+                        person.imageUrl.length > 0
+                          ? person.imageUrl
+                          : "/img/user.png"
+                      }
+                      alt=""
+                    />
+                    <div>
+                      <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                        {"Prof. " + person.name}
+                      </h3>
+                      <p className="text-sm font-semibold leading-6 text-indigo-600">
+                        {person.role}
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              )
+          )}
         </ul>
+      </div>
+      <div className="flex justify-center">
+        {limit < people.length ? (
+          <button
+            className="w-28 h-12 bg-sky-500 mt-12 mx-6 rounded-md text-slate-50"
+            onClick={() => setLimit(limit + 12)}
+          >
+            Mostrar más
+          </button>
+        ) : (
+          <button
+            className="w-32 h-12 bg-lime-400 mt-12 mx-6 rounded-md text-black"
+            onClick={() => setLimit(12)}
+          >
+            Mostrar menos
+          </button>
+        )}
       </div>
     </div>
   );

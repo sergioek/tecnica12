@@ -26,7 +26,7 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/noticias" element={<News/>} />
           <Route path="/formularios" element={<Forms/>} />
-          <Route path="contacto" element={<Contact />} />
+          <Route path="/contacto" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

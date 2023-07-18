@@ -21,7 +21,7 @@ export const History = () => {
 
         <p className="text-gray-600 text-md leading-6 text-justify font-sans">
           La Escuela Técnica N°12 comienza sus actividades administrativas y
-          pedagógicas el 29 de febrero del año 2016, en coincidencia con el
+          pedagógicas el 29 de febrero del año 2016 (año biciesto), en coincidencia con el
           inicio del ciclo lectivo del mismo año. Un día que quedará marcado en
           la Historia del nacimiento de la Institución y que contribuirá al
           conocimiento del marco histórico referencial que le dio origen. La
