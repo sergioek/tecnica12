@@ -3,7 +3,16 @@ import { Galery } from './Galery';
 
 export const Infrastructure = () => {
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="border-b border-gray-300">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Infraestructura
@@ -26,9 +35,8 @@ export const Infrastructure = () => {
 
       <Galery />
 
-
       <div className="grid grid-cols-1 justify-items-center my-6">
-        <video className='w-5/6 h-auto' controls>
+        <video className="w-5/6 h-auto" controls>
           <source src="/video/video.mp4" type="video/mp4" />
         </video>
       </div>

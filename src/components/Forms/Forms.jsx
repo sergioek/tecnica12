@@ -12,7 +12,17 @@ const forms = [
 
 export const Forms = () => {
   return (
-    <div className="my-12 mx-auto max-w-7xl px-6 lg:px-8">
+    <div
+      className="my-12 mx-auto max-w-7xl px-6 lg:px-8"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="border-b border-gray-300">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Formularios
@@ -26,7 +36,9 @@ export const Forms = () => {
         <div className="bg-gray-100">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-12">
-              <h2 className="text-2xl font-bold text-gray-900 font-josefin">Fomularios de google</h2>
+              <h2 className="text-2xl font-bold text-gray-900 font-josefin">
+                Fomularios de google
+              </h2>
 
               <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                 {forms.map((form) => (
@@ -39,7 +51,7 @@ export const Forms = () => {
                       />
                     </div>
                     <h3 className="mt-6 text-sm text-gray-500">
-                      <a href={form.href} target='blank'>
+                      <a href={form.href} target="blank">
                         <span className="absolute inset-0" />
                         {form.name}
                       </a>

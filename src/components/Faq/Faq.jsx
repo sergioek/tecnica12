@@ -96,7 +96,17 @@ export const Faq = () => {
   }
 
   return (
-    <div className="my-12 mx-auto max-w-7xl px-6 lg:px-8">
+    <div
+      className="my-12 mx-auto max-w-7xl px-6 lg:px-8"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="border-b border-gray-300">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Preguntas frecuentes
@@ -111,7 +121,12 @@ export const Faq = () => {
           <div className="my-4 p-3 bg-slate-300 rounded-md" key={faq.id}>
             <div className="flex flex-row items-center justify-between">
               <div>
-                <strong onClick={() =>collapse(faq.id)} className="cursor-pointer">{faq.ask}</strong>
+                <strong
+                  onClick={() => collapse(faq.id)}
+                  className="cursor-pointer"
+                >
+                  {faq.ask}
+                </strong>
                 {show && id == faq.id ? (
                   <p className="mt-4">{faq.answer}</p>
                 ) : (
@@ -119,9 +134,15 @@ export const Faq = () => {
                 )}
               </div>
               {show && id == faq.id ? (
-                <BsDashLg onClick={() => hiddenAnswer(faq.id)} className="cursor-pointer"/>
+                <BsDashLg
+                  onClick={() => hiddenAnswer(faq.id)}
+                  className="cursor-pointer"
+                />
               ) : (
-                <BsPlusLg onClick={() => showAnswer(faq.id)} className="cursor-pointer"/>
+                <BsPlusLg
+                  onClick={() => showAnswer(faq.id)}
+                  className="cursor-pointer"
+                />
               )}
             </div>
           </div>

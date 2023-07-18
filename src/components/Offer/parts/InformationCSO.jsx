@@ -12,7 +12,17 @@ const stats = [
 
 export default function InfromationCSO() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 my-12">
+    <div
+      className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 my-12"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <img
         src="/img/others/CSO.jpg"
         alt=""
@@ -62,9 +72,7 @@ export default function InfromationCSO() {
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse">
-                <dt className="text-base leading-7 text-white">
-                  {stat.name}
-                </dt>
+                <dt className="text-base leading-7 text-white">{stat.name}</dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-white">
                   {stat.value}
                 </dd>

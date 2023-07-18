@@ -4,7 +4,16 @@ import InfromationCSO from "./InformationCSO";
 
 export const StructureMMO = () => {
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="border-b border-gray-300">
         <h3 className="text-2xl font-bold tracking-tight text-blue-900 sm:text-2xl">
           CICLO BÁSICO TÉCNICO

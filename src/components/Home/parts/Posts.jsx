@@ -1,3 +1,7 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const posts = [
   {
     id: 1,
@@ -95,7 +99,17 @@ const posts = [
 
 export default function Posts() {
   return (
-    <div className="bg-white py-2 sm:py-2">
+    <div
+      className="bg-white py-2 sm:py-2"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="border-b border-gray-300 mx-auto max-w-2xl lg:mx-0 ">
           <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">

@@ -1,9 +1,37 @@
 import { people } from "./data/team-data.js";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 export default function Team() {
   const [limit, setLimit] = useState(12)
+  const [progress, setProgress] = useState(false)
+
+  useEffect(() => {
+    setProgress(false)
+  }, [limit])
+  
+  const upLimit = () => {
+    setProgress(true)
+    setTimeout(()=>{setLimit(limit+12)},1000)
+  }
+
+    const downLimit = () => {
+      setProgress(true);
+      setTimeout(() => {
+        setLimit(12);
+      }, 1000);
+    };
+
   return (
-    <div className="bg-white py-16 sm:py-16">
+    <div
+      className="bg-white py-16 sm:py-16"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         {/* <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -50,16 +78,16 @@ export default function Team() {
         {limit < people.length ? (
           <button
             className="w-28 h-12 bg-sky-500 mt-12 mx-6 rounded-md text-slate-50"
-            onClick={() => setLimit(limit + 12)}
+            onClick={() => upLimit()}
           >
-            Mostrar más
+            {progress ? "Cargando..." : "Mostrar más"}
           </button>
         ) : (
           <button
             className="w-32 h-12 bg-lime-400 mt-12 mx-6 rounded-md text-black"
-            onClick={() => setLimit(12)}
+            onClick={() => downLimit()}
           >
-            Mostrar menos
+            {progress ? "Cargando..." : "Mostrar menos"}
           </button>
         )}
       </div>

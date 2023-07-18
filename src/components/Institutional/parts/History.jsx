@@ -2,7 +2,16 @@ import React from 'react'
 
 export const History = () => {
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="border-b border-gray-300">
         <h2 className="text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl">
           Nuestra historia
@@ -21,19 +30,19 @@ export const History = () => {
 
         <p className="text-gray-600 text-md leading-6 text-justify font-sans">
           La Escuela Técnica N°12 comienza sus actividades administrativas y
-          pedagógicas el 29 de febrero del año 2016 (año biciesto), en coincidencia con el
-          inicio del ciclo lectivo del mismo año. Un día que quedará marcado en
-          la Historia del nacimiento de la Institución y que contribuirá al
-          conocimiento del marco histórico referencial que le dio origen. La
-          Escuela Técnica N°12 nace por Resolución Ministerial N° 4288/15 del 25
-          de noviembre del mismo año, representando una nueva oferta educativa
-          de nivel secundario para la ciudad de Fernández y sus zonas de
-          influencia, con una orientación específicamente técnica y bajo la
-          denominación de su perfil profesional Maestro Mayor de Obras. Sus
-          alumnos y futuros egresados pertenecen al sector de actividad socio
-          productivo construcciones edilicias y durante su trayectoria escolar
-          incorporan conocimientos y capacidades necesarias para abrirse paso
-          frente a las oportunidades laborales propias de su área de
+          pedagógicas el 29 de febrero del año 2016 (año biciesto), en
+          coincidencia con el inicio del ciclo lectivo del mismo año. Un día que
+          quedará marcado en la Historia del nacimiento de la Institución y que
+          contribuirá al conocimiento del marco histórico referencial que le dio
+          origen. La Escuela Técnica N°12 nace por Resolución Ministerial N°
+          4288/15 del 25 de noviembre del mismo año, representando una nueva
+          oferta educativa de nivel secundario para la ciudad de Fernández y sus
+          zonas de influencia, con una orientación específicamente técnica y
+          bajo la denominación de su perfil profesional Maestro Mayor de Obras.
+          Sus alumnos y futuros egresados pertenecen al sector de actividad
+          socio productivo construcciones edilicias y durante su trayectoria
+          escolar incorporan conocimientos y capacidades necesarias para abrirse
+          paso frente a las oportunidades laborales propias de su área de
           competencia. Actualmente cuenta con 322 alumnos que asisten en doble
           turno, recibiendo la formación integral para ser personas de bien, re
           significando el valor del trabajo y constituyéndose en el granito de

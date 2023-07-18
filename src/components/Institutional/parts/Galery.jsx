@@ -7,12 +7,12 @@ const images = [
 ];
 export const Galery = () => {
   return (
-    <div className="grid grid-cols-1 justify-items-center gap-4 lg:grid-cols-3">
+    <div className="grid grid-cols-1 justify-items-center gap-4">
       {images.map((image) => (
         <img
           src={image.url}
           alt={image.alt}
-          className="w-5/6 h-40 rounded-md transform transition duration-500 hover:scale-125"
+          className="w-4/6 h-90 rounded-md transform transition duration-500 hover:scale-125"
         />
       ))}
     </div>
