@@ -3,31 +3,43 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 export const SimpleSlider = () => {
 
-    const slides = [
-      {
-        url: "/img/slider/portada1.jpg",
-      },
-      {
-        url: "/img/slider/acto-independencia-2023.jfif",
-      },
-      {
-        url: "/img/slider/portada2.jpg",
-      },
-      {
-        url: "/img/slider/portada3.jpg",
-      },
+  const slides = [
+    {
+      url: "/img/slider/preinscripcion.png",
+    },
+    {
+      url: "/img/slider/portada1.jpg",
+    },
+    {
+      url: "/img/slider/taller1.jpeg",
+    },
+    {
+      url: "/img/slider/taller2.jpeg",
+    },
+    {
+      url: "/img/slider/taller3.jpeg",
+    },
+    {
+      url: "/img/slider/acto-independencia-2023.jfif",
+    },
+    {
+      url: "/img/slider/portada2.jpg",
+    },
+    {
+      url: "/img/slider/portada3.jpg",
+    },
 
-      {
-        url: "/img/slider/portada4.jpg",
-      },
-      {
-        url: "/img/slider/portada5.jpg",
-      },
+    {
+      url: "/img/slider/portada4.jpg",
+    },
+    {
+      url: "/img/slider/portada5.jpg",
+    },
 
-      {
-        url: "/img/slider/portada6.jpg",
-      },
-    ];
+    {
+      url: "/img/slider/portada6.jpg",
+    },
+  ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
