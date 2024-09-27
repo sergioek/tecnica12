@@ -11,9 +11,25 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Roboto&display=swap"
       rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+            console.log('Service Worker registrado con éxito:', registration.scope);
+          }, function (err) {
+            console.log('Error al registrar el Service Worker:', err);
+          });
+        });
+      }
+    </script>
+
   </body>
+
+ 
 </html>
