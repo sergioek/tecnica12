@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff">
     <title>Escuela Técnica Nº12 - Aprender, trabajar y servir</title>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,25 +12,15 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Roboto&display=swap"
       rel="stylesheet">
-    <link rel="manifest" href="/manifest.json">
+ 
 
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-          navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
-            console.log('Service Worker registrado con éxito:', registration.scope);
-          }, function (err) {
-            console.log('Error al registrar el Service Worker:', err);
-          });
-        });
-      }
-    </script>
+    
 
   </body>
 
- 
+
 </html>
