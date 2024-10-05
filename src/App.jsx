@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact/Contact";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Forms } from './components/Forms/Forms';
 import { News } from './components/News/News';
+import InstallPrompt from './components/PromptPwa/InstallPrompt';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contacto" element={<Contact />} />
         </Routes>
       </main>
+      <InstallPrompt/>
       <Footer />
     </BrowserRouter>
   );
