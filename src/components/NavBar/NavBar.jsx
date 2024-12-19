@@ -23,6 +23,11 @@ export default function NavBar() {
       { name: "FAQ", href: "/faq", current: false },
       { name: "Formularios", href: "/formularios", current: false },
       { name: "Contacto", href: "/contacto", current: false },
+      {
+        name: "Sinide SGE",
+        href: "https://sge.meducacionsantiago.gob.ar",
+        current: false,
+      },
     ]);
 
   return (

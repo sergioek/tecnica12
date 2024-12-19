@@ -5,7 +5,10 @@ export const SimpleSlider = () => {
 
   const slides = [
     {
-      url: "/img/slider/inscripcion.png", /* poner imagen actualizada */
+      url: "/img/slider/promo2024.png",
+    },
+    {
+      url: "/img/slider/inscripcion.png",
     },
     {
       url: "/img/slider/portada1.jpg",
